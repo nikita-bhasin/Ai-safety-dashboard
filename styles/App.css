@@ -1,0 +1,97 @@
+/* Global Dark Mode Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  h3 {
+    color: #fff;
+  }
+  
+  p {
+    color: #bbb;
+  }
+  
+  /* Dashboard Header */
+  .header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Card Styling for Incidents */
+  .incident-card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .incident-card h3 {
+    color: #bb86fc;
+  }
+  
+  .incident-card p {
+    font-size: 1rem;
+  }
+  
+  .incident-card button {
+    background-color: #03dac6;
+    color: #121212;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .incident-card button:hover {
+    background-color: #018786;
+  }
+  
+  /* Filter Controls */
+  .select-container {
+    margin: 20px 0;
+  }
+  
+  .select-container select {
+    background-color: #333;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
